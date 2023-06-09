@@ -7,7 +7,7 @@ const person = {
 
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
 let team = [0, 1, 2, 3];
-let team1 = [players[0], players[1], players[2], players[3]];
+let team1 = players;
 
 let cap1 = person;
 
