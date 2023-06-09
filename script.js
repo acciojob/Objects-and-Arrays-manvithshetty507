@@ -6,8 +6,12 @@ const person = {
 };
 
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
-let team = [0, 1, 2, 3];
-let team1 = players;
+let team = players;
+let team1 = [];
+
+for(player of players){
+	team1.push(palyer);
+}
 
 let cap1 = person;
 
