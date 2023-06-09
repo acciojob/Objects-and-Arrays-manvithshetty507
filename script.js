@@ -17,7 +17,10 @@ for(player of players){
 	team1.push(palyer);
 }
 
-let cap1 = person;
+let cap1 = {
+	"name" : person.name;
+	"age": person.age;
+};
 
 window.players = players;
 window.person = person;
