@@ -6,13 +6,11 @@ const person = {
 };
 
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
-let team = {0 , 1, 2, 3};
-let team1 = {player[team[0]], player[team[1]], player[team[2]], player[team[3]]}
+let team = [0, 1, 2, 3];
+let team1 = [player[0], player[1], player[2], player[3]];
 
-let cap1 = {
-	name : person.name;
-	age: person.age
-};
+let cap1 = person;
+
 window.players = players;
 window.person = person;
 window.team = team;
